@@ -23,5 +23,7 @@ public class ControleHentai : MonoBehaviour
             gameObject.transform.position += velocidade*new Vector3(0,1,0);
         if(Input.GetKey(KeyCode.S))
             gameObject.transform.position += velocidade*new Vector3(0,-1,0);
+        if(Input.GetKey(KeyCode.R))
+            gameObject.transform.position = new Vector3(0,0,0);
     }
 }
